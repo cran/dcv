@@ -1,0 +1,8 @@
+import(lmtest)
+
+export(test.DW, test.LM, test.PMT, test.RE, test.ST)
+export(print.LM, print.PMT, print.RE)
+
+S3method(print, LM)
+S3method(print, PMT)
+S3method(print, RE)
